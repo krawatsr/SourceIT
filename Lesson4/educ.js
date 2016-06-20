@@ -13,7 +13,8 @@ arr.forEach(function (value, key) {
 	console.log(value);
 })
 
----------------------------------------------------
+//---------------------------------------------------
+
 //
 //indexOf
 //
@@ -52,7 +53,7 @@ console.log('GetIndex from getIndexForeach - ' + getIndexForeach(arr, 6));
 arr.push(6);
 console.log('GetIndex from getIndexForeach - ' + getIndexFrom(arr, 6, 3));
 
------------------------------------------------------
+//-----------------------------------------------------
 
 //
 //lastIndexOf
@@ -69,7 +70,8 @@ function lastIndex (array, element) {
 
 console.log(lastIndex(arr, 6));
 
------------------------------------------------------
+//-----------------------------------------------------
+
 //
 //reverse
 //
@@ -85,7 +87,7 @@ function revert (array) {
 
 console.log(revert(arr));
 
------------------------------------------------------
+//-----------------------------------------------------
 
 //
 //get multiple
